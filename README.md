@@ -47,8 +47,7 @@ before_script:
 script:
   - chmod u+x ./travis.sh
   - chmod u+x /build.sh
-  - export DOCKER_CLI_EXPERIMENTAL=enabled # crucial to use manifest
-
+  
 after_success:
   - docker images
   - docker manifest inspect --verbose lucashalbert/curl # multiarch build
