@@ -1,7 +1,6 @@
-# Using Experimental CLI Commands with Docker
-Travis CI Webinar: Using Experimental CLI Commands with Docker
+# Travis CI Webinar: Using Experimental CLI Commands with Docker
 
-# Using experimental CLI features
+## Using experimental CLI features
 
 I will show you other methods in doing this, but if you're going to do it through docker's `config.json`, look for the following:
 
@@ -14,7 +13,7 @@ I will show you other methods in doing this, but if you're going to do it throug
 
 This for example will make `manifestation` possible, when calling `docker manifest`.
 
-# Things you need to add in your .travis.yml 
+## Things you need to add in your .travis.yml 
 
 ```yaml
 ---
