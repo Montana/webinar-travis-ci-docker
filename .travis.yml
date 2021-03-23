@@ -24,12 +24,10 @@ before_script:
   - export vcs_ref=$(git rev-parse --short HEAD)
 
 
-  
-script:
+  script:
   - chmod u+x ./travis.sh
   - chmod u+x ./build.sh
-  - export DOCKER_CLI_EXPERIMENTAL=enabled
-
+ 
   
 after_success:
   - docker images
