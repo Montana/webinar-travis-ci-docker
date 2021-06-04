@@ -1,3 +1,3 @@
 os: freebsd 
-language: erlang
+language: python
 echo: "Montana in the FreeBSD building!" 
